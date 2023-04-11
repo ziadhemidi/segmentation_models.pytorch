@@ -104,3 +104,14 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+**/._.DS_Store
+#.gitignore
+__MACOSX/hackathon_mmwhs/._.DS_Store
+*.pth
+*.zip
+**/**/._.DS_Store
+*.gz
+*.tar
+*.tar.gz
+*/.DS_Store
+**/**/.DS_Store
