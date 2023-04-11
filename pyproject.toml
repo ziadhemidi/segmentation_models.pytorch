@@ -17,3 +17,24 @@ exclude = '''
   | dist
 )/
 '''
+
+[tool.poetry]
+name = "segmentation-models-pytorch"
+version = "0.1.0"
+description = ""
+authors = ["Ziad Al-Haj Hemidi <z.alhajhemidi@uni-luebeck.de>"]
+readme = "README.md"
+packages = [{include = "segmentation_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+torch = "^2.0.0"
+matplotlib = "^3.7.1"
+ipykernel = "^6.22.0"
+ipywidgets = "^8.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
